@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group   android:checkableBehavior="single">
+        <item android:title="SC Calculator"
+            android:id="@+id/sccal"></item>
+        <item android:title="Currency Converter"
+            android:id="@+id/CUR"></item>
+        <item android:title="Age"
+            android:id="@+id/agemenu"/>
+        <item android:title="Gpa"
+            android:id="@+id/gpamenue"/>
+        <item android:title="Unit Converter "
+            android:id="@+id/convertmenu"/>
+        <item android:title="Calorei"
+            android:id="@+id/calmenu"/>
+        <item android:title="Bmi"
+            android:id="@+id/bmimenu"></item>
+    </group>
+    <item android:title="Theme" android:id="@+id/Theme">
+        <menu>
+    <item android:title="Black"
+                android:id="@+id/black"/>
+                <item android:title="Blue"
+                    android:id="@+id/Blue"/>
+                <item android:title="Lemon"
+                    android:id="@+id/Lemon"/>
+                <item android:title="Purple"
+                    android:id="@+id/purple"/>
+                <item android:title="Pink"
+                    android:id="@+id/Pink"/>
+                <item android:title="Green"
+                    android:id="@+id/Green"/>
+                <item android:title="Light Green"
+                    android:id="@+id/LightGreen"/>
+                <item android:title="Deep Purple"
+                    android:id="@+id/deep"/>
+
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

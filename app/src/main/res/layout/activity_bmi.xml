@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".bmi"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bmitoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#000"
+        app:title="BMI"
+        app:titleTextColor="@color/backbutt"></androidx.appcompat.widget.Toolbar>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@id/bmitoolbar">
+
+    <TextView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:background="?colorPrimaryDark"
+        android:gravity="center"
+        android:text="Body index"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/backbutt"
+        android:textStyle="italic"
+        app:fontFamily="sans-serif-condensed-medium"></TextView>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5"
+        android:orientation="horizontal"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+        android:textSize="@dimen/_9sdp"
+        android:layout_weight="1"
+
+        android:layout_gravity="center"
+
+        android:text="Underweight"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+    <TextView
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_weight="1"
+        android:textSize="@dimen/_9sdp"
+        android:gravity="center"
+        android:text="Healthy"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+        <TextView
+    android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:text="Overweight"
+        android:textSize="@dimen/_9sdp"
+
+    android:gravity="center"
+    android:textColor="@color/colorPrimaryDark"></TextView>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_weight="1"
+        android:textSize="@dimen/_9sdp"
+        android:gravity="center"
+        android:text="OBESE"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_weight="1"
+
+        android:gravity="center"
+        android:textSize="@dimen/_9sdp"
+        android:padding="0dp"
+        android:text="Extremely OBESE"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+
+        android:layout_below="@id/bmitoolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+android:text="> 18"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:textColor="@color/backbutt"></TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/shape"
+            android:text="18.5 - 24.9"
+            android:textColor="@color/backbutt"></TextView>  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/shape"
+        android:text="25 - 29.9"
+        android:gravity="center"
+
+        android:textColor="@color/backbutt"></TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_weight="1"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:background="@drawable/shape"
+            android:text="30 - 34.9"
+            android:textColor="@color/backbutt"></TextView>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/shape"
+            android:text="> 35"
+            android:textColor="@color/backbutt"></TextView>
+    </LinearLayout>
+</LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/t1cl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:background="?colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:text="weight kg"
+                android:textColor="@color/backbutt"></TextView>
+
+            <EditText
+                android:id="@+id/bmi1"
+                android:layout_width="@dimen/_192sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="0dp"
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/ebmi"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/t2cl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1cl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:background="?colorPrimaryDark"
+                android:gravity="center"
+                android:text="height cm"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/backbutt"></TextView>
+
+            <EditText
+                android:id="@+id/bmi2"
+                android:layout_width="@dimen/_192sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:paddingTop="0dp"
+                android:paddingBottom="@dimen/_1sdp"
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/ebmi"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t2cl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:background="?colorPrimaryDark"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:text="Result"
+                android:textColor="@color/backbutt" />
+
+            <TextView
+                android:id="@+id/bmitext"
+                android:layout_width="@dimen/_192sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_15sdp"></TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bmifi"
+            android:layout_width="@dimen/_72sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_below="@+id/lha"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/shape"
+            android:text="finish"
+
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/backbutt"></Button>
+
+
+    </RelativeLayout>
+</RelativeLayout>

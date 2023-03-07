@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Calculator Everything</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="spa">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+    </string-array>
+    <string-array name="goal">
+        <item>Enter</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D</item>
+        <item>F</item>
+
+    </string-array>
+
+
+    <string name="B">B</string>
+    <string name="mod">%</string>
+    <string name="divide">÷ </string>
+    <string name="MD7">7</string>
+    <string name="MD8">8</string>
+    <string name="MD9">9</string>
+    <string name="MCX">×</string>
+    <string name="MC4">4</string>
+    <string name="MC5">5</string>
+    <string name="MC6">6</string>
+    <string name="MCsub">−</string>
+    <string name="MC1">1</string>
+    <string name="MC2">2</string>
+    <string name="MC3">3</string>
+    <string name="MCplus">+</string>
+    <string name="d1">"cos<sup><small>-1</small></sup>"</string>
+    <string name="d2">"sin<sup><small>-1</small></sup>"</string>
+    <string name="d3">"tan<sup><small>-1</small></sup>"</string>
+    <string name="d4">"log<sub><small>10</small></sub>"</string>
+    <string name="de">"log<sub><small>e</small></sub>"</string>
+    <string name="MC0">0</string>
+    <string name="MCequal">=</string>
+    <string name="slash">+/−</string>
+    <string name="powerXy">"X<sup><small>y</small></sup>"</string>
+    <string name="powerex">"e<sup><small>x</small></sup>"</string>
+    <string name="powerYx">"Y<sup><small>x</small></sup>"</string>
+    <string name="power10x">"10<sup><small>x</small></sup>"</string>
+    <string name="powerLogy">"log<sup><small>y</small></sup>"</string>
+    <string name="powerX2">"X<sup><small>2</small></sup>"</string>
+    <string name="power2nd">"2<sup><small>nd</small></sup>"</string>
+    <string name="power2x">"2<sup><small>x</small></sup>"</string>
+    <string name="ln">ln</string>
+    <string name="pi">π</string>
+    <string name="lbracket">(</string>
+    <string name="Rbracket">)</string>
+    <string name="MC">MC</string>
+    <string name="Mplus">M+</string>
+    <string name="Mminus">M-</string>
+    <string name="MR">MR</string>
+    <string name="divide1x">1/x</string>
+    <string name="xnotequal">x!</string>
+    <string name="log">log</string>
+    <string name="yunderootx">"<sup><small>y</small></sup>√X"</string>
+
+    <string name="title_activity_menu">menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="C">c</string>
+    <string name="ss">*</string>
+
+    <string-array name="cur">
+        <item>"Euro<small>" EUR"</small>"</item>
+        <item>"Pound Sterling<small>" GBP"</small>"</item>
+        <item>"Hong Kong Dollar<small>" HKD"</small>"</item>
+        <item>"Rupiah<small>" IDR"</small>"</item>
+        <item>"Danish Krone<small>" DKK"</small>"</item>
+        <item>"Indian Rupee<small>" INR"</small>"</item>
+        <item>"Swiss Franc<small>" CHF"</small>"</item>
+        <item>"Mexican Peso<small>" MXN"</small>"</item>
+        <item>"Czech Koruna<small>" CZK"</small>"</item>
+        <item>"Singapore Dollar<small>" SGD"</small>"</item>
+        <item>"Baht<small>" THB"</small>"</item>
+        <item>"Croatian Kuna<small>" HRK"</small>"</item>
+        <item>"Malaysian Ringgit<small>" MYR"</small>"</item>
+        <item>"Norwegian Krone<small>" NOK"</small>"</item>
+        <item>"Yuan<small>" CNY"</small>"</item>
+        <item>"Bulgarian Lev<small>" BGN"</small>"</item>
+        <item>"Philippine Peso<small>" PHP"</small>"</item>
+        <item>"Swedish Krona<small>" SEK"</small>"</item>
+        <item>"PZloty<small>" PLN"</small>"</item>
+        <item>"South Africa rand<small>" ZAR"</small>"</item>
+        <item>"Canadian Dollar<small>" CAD"</small>"</item>
+        <item>"Iceland Krona<small>" ISK"</small>"</item>
+        <item>"Brazilian Real<small>" BRL"</small>"</item>
+        <item>"Leu<small>"RON"</small>"</item>
+        <item>"New Zealand Dollar<small>" NZD"</small>"</item>
+        <item>"Turkish Lira<small>" TRY"</small>"</item>
+        <item>"Japan Yen<small>" JPY"</small>"</item>
+        <item>"Russian Ruble<small>" RUB"</small>"</item>
+        <item>"South Korean Won<small>" KRW"</small>"</item>
+        <item>"US Dollar<small>" USD"</small>"</item>
+        <item>"Forint<small>" HUF"</small>"</item>
+        <item>"Australian Dollar<small>" AUD"</small>"</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+

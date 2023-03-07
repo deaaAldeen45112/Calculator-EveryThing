@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="landnor">30dp</dimen>
+    <dimen name="textbusizesm">8dp</dimen>
+    <dimen name="textbusizela">64dp</dimen>
+    <dimen name="textbusizelala">@dimen/_24sdp</dimen>
+    <dimen name="textbusizeno">36dp</dimen>
+    <dimen name="minhi">12dp</dimen>
+
+    <dimen name="land">@dimen/_16sdp</dimen>
+    <dimen name="a">@dimen/_16sdp</dimen>
+
+</resources>

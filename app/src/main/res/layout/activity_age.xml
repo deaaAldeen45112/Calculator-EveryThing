@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".age">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/agetoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#000"
+        app:title="Age"
+        app:titleTextColor="@color/backbutt"></androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imcle"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_below="@+id/agetoolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/ic_schedule"></ImageView>
+
+<LinearLayout
+    android:id="@+id/licl"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/imcle">
+
+    <TextView
+
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_toLeftOf="@+id/ecl"
+        android:background="?colorPrimaryDark"
+        android:gravity="center"
+        android:text="Data of birth"
+        android:textColor="@color/backbutt"
+
+        android:textSize="@dimen/_10sdp"
+
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/ecl"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:textSize="@dimen/_14sdp"
+android:backgroundTint="?colorPrimaryDark"
+        android:hint="such as:13/10/2000"
+
+        android:paddingLeft="@dimen/_2sdp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        ></EditText>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/licl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1cl">
+
+        <TextView
+            android:layout_width="@dimen/_106sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:background="?colorPrimaryDark"
+            android:gravity="center"
+            android:text="Your exact age"
+            android:layout_gravity="center"
+            android:textColor="@color/backbutt"
+            android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_28sdp"
+                android:padding="0dp"
+                android:textSize="@dimen/eage"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/t1cl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2cl">
+        <TextView
+            android:layout_width="@dimen/_106sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:text="Day of Birth"
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:background="?colorPrimaryDark"
+            android:textColor="@color/backbutt"
+            ></TextView>
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv2"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:gravity="center"
+
+            android:padding="0dp"
+            android:textSize="@dimen/eage"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/t2cl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3cl">
+
+        <TextView
+            android:layout_width="@dimen/_106sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_gravity="center"
+            android:background="?colorPrimaryDark"
+            android:gravity="center"
+            android:text="Until next birthday"
+            android:textColor="@color/backbutt"
+            android:textSize="@dimen/_10sdp"></TextView>
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv3"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:gravity="center"
+
+            android:padding="0dp"
+            android:textSize="@dimen/eage"></TextView>
+    </LinearLayout>
+
+<Button
+    android:id="@+id/fi"
+android:text="finish"
+    android:textSize="@dimen/_12sdp"
+    android:background="@drawable/shape"
+    android:textColor="@color/backbutt"
+    android:layout_below="@+id/t3cl"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:layout_width="@dimen/_72sdp"
+    android:layout_height="@dimen/_36sdp"
+
+    ></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

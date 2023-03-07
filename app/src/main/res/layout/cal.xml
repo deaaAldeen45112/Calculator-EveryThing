@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".caloreis"
+    android:background="@color/backbutt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/caltoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#000"
+        app:title="Calorei"
+        app:titleTextColor="@color/backbutt"></androidx.appcompat.widget.Toolbar>
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_22sdp"
+        android:backgroundTint="?colorPrimaryDark"
+        ></Spinner>
+    <Spinner
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_22sdp"
+        android:backgroundTint="?colorPrimaryDark"
+        ></Spinner>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5">
+    <TextView
+       android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:textSize="@dimen/_16sdp"
+        android:id="@+id/t"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingBottom="0dp"
+        android:paddingRight="0dp"
+        android:paddingLeft="@dimen/_6sdp"
+        android:paddingTop="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="left|center"
+        ></TextView>
+    <Button
+        android:layout_weight="4"
+        android:background="@drawable/shape"
+        android:layout_height="@dimen/_31sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/backbutt"
+        android:text="repet"
+        android:id="@+id/repet"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+    ></Button>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_16sdp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="name"
+            android:paddingTop="0dp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:background="?colorPrimaryDark"
+            android:textColor="@color/backbutt"
+            android:layout_weight="1">
+        </TextView>
+        <TextView
+            android:text="weight"
+            android:paddingTop="0dp"
+            android:paddingBottom="@dimen/_1sdp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:background="?colorPrimaryDark"
+            android:textColor="@color/backbutt"
+            android:layout_weight="1">
+        </TextView>
+        <TextView
+            android:paddingTop="0dp"
+            android:paddingBottom="@dimen/_1sdp"
+
+            android:text="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:background="?colorPrimaryDark"
+            android:textColor="@color/backbutt"
+            android:layout_weight="1">
+        </TextView>
+        <TextView android:paddingTop="0dp"
+            android:paddingBottom="@dimen/_1sdp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="calorei"
+            android:textSize="@dimen/_12sdp"
+            android:background="?colorPrimaryDark"
+            android:textColor="@color/backbutt"
+            android:layout_weight="1">
+        </TextView>
+        <TextView  android:paddingTop="0dp"
+            android:paddingBottom="@dimen/_1sdp"
+
+            android:text="sum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:background="?colorPrimaryDark"
+            android:textColor="@color/backbutt"
+            android:layout_weight="1">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ListView
+            android:id="@+id/lcal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/_6sdp"
+            ></ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginBottom="@dimen/_36sdp"
+            >
+            <TextView
+                android:paddingTop="0dp"
+                android:paddingBottom="@dimen/_1sdp"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_16sdp"
+                android:text="sum"
+                android:textSize="@dimen/_12sdp"
+                android:background="?colorPrimaryDark"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/backbutt"></TextView>
+        <ListView
+            android:id="@+id/lcal2"
+            android:layout_weight="2"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ListView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

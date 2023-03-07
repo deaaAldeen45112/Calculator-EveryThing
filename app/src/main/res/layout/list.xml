@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sphe"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sphe"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_10sdp"></TextView>
+
+    <TextView android:id="@+id/t2"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+android:layout_gravity="center"
+        android:textSize="@dimen/_10sdp"
+
+        android:layout_height="@dimen/sphe"></TextView>
+    <TextView android:id="@+id/t3"
+        android:gravity="center"
+        android:layout_weight="1"
+android:layout_gravity="center"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sphe"></TextView>
+    <Button
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_34sdp"
+        android:layout_weight="1"
+       android:layout_gravity="center"
+        android:textColor="@color/backbutt"
+        android:text="delete"
+        android:padding="0dp"
+        android:background="@drawable/shape"
+        android:textSize="@dimen/_10sdp"
+        ></Button>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="ln">@dimen/_13sdp</dimen>
+    <dimen name="textgba">@dimen/_12sdp</dimen>
+    <dimen name="sphe">@dimen/_46sdp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="marcor">0.01dp</dimen>
+    <dimen name="spgpa">@dimen/_32sdp</dimen>
+
+    <dimen name="hpl">84dp</dimen>
+    <dimen name="hon">42dp</dimen>
+    <dimen name="hpxl">88dp</dimen>
+    <dimen name="hpsm">42dp</dimen>
+
+    <dimen name="hdl">56dp</dimen>
+    <dimen name="hdn">42dp</dimen>
+    <dimen name="hdxl">64dp</dimen>
+    <dimen name="hdsm">42dp</dimen>
+    <dimen name="min2">36dp</dimen>
+
+    <dimen name="ebmi">@dimen/_18sdp</dimen>
+    <dimen name="egbaa">@dimen/_18sdp</dimen>
+    <dimen name="econ">@dimen/_22sdp</dimen>
+    <dimen name="ecal">@dimen/_22sdp</dimen>
+    <dimen name="eage">@dimen/_16sdp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

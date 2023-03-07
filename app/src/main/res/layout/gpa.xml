@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@color/backbutt"
+    >
+    <androidx.appcompat.widget.Toolbar
+android:id="@+id/gpa"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#000"
+        app:title="GPA System"
+        app:titleTextColor="@color/backbutt"></androidx.appcompat.widget.Toolbar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/m2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/shape"
+            android:text="100"
+            android:textColor="@color/backbutt"
+            android:textSize="@dimen/_38sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/aplus1"
+            app:layout_constraintEnd_toStartOf="@+id/aplus1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/aplus1"></Button>
+
+        <Button
+            android:id="@+id/aplus1"
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="106dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginRight="69dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:textSize="@dimen/_38sdp"
+            android:textColor="@color/backbutt"
+            android:text="A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/m2"
+            app:layout_constraintTop_toTopOf="parent"></Button>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

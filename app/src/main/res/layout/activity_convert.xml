@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".convert"
+    android:background="@color/backbutt">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/cvtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#000"
+        app:title="Unit Convert"
+        app:titleTextColor="@color/backbutt"></androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+android:id="@+id/ver"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cvtoolbar"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/parentsp"
+            android:backgroundTint="?colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+        android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/cve1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="?colorPrimaryDark"
+                android:digits="0123456789.-E"
+                android:gravity="center"
+                android:inputType="textMultiLine|numberDecimal"
+                android:padding="0dp"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/econ"></EditText>
+
+            <ImageButton
+                android:id="@+id/imccn"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@color/backbutt"
+                android:src="@drawable/ic_compare_arrows_black_24dp"></ImageButton>
+
+            <EditText
+                 android:id="@+id/cve2"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:digits="0123456789.-E"
+                android:inputType="textMultiLine|numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/econ"
+                android:backgroundTint="?colorPrimaryDark">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/chid1sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="?colorPrimaryDark"
+                android:baselineAligned="false"
+
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                ></Spinner>
+
+            <Space
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backbutt"/>
+
+            <Spinner
+                android:id="@+id/chid2sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="?colorPrimaryDark"
+                android:baselineAligned="false"
+
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                ></Spinner>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

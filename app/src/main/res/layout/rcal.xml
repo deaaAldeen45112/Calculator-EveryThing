@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sphe"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView android:id="@+id/ct1"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sphe"></TextView>
+
+    <Spinner
+        android:id="@+id/cts2"
+        android:backgroundTint="?colorPrimaryDark"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:padding="0dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sphe"></Spinner>
+
+    <Spinner
+        android:textAlignment="center"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:gravity="center"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+    android:entries="@array/spa"
+    android:id="@+id/cts"
+    android:backgroundTint="?colorPrimaryDark"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sphe"></Spinner>
+
+    <TextView
+        android:id="@+id/ct3"
+        android:textSize="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sphe"></TextView>
+<Button
+    android:id="@+id/checkbox"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:textColor="@color/backbutt"
+    android:text="sum"
+    android:layout_gravity="center"
+    android:layout_height="@dimen/_31sdp"
+    android:textSize="@dimen/_10sdp"
+    android:background="@drawable/shape"
+    android:gravity="center"></Button>
+
+
+</LinearLayout>
