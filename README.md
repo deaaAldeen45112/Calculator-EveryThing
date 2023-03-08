@@ -3,3 +3,7 @@ The application calculator everything contains many wonderful calculators that w
 # Building
 I built an algorithm to analyze arithmetic expressions without any external libraries .
 this is the first application for me,for that you will find a lot of Spaghetti Code ,I did it without clean code .
+
+
+https://user-images.githubusercontent.com/99683685/223870043-d0798e79-9d02-46b4-b50d-d339b7abaee9.mp4
+
